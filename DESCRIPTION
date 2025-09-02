@@ -1,0 +1,19 @@
+Package: tidySP
+Title: Extract and Tidy SharePoint Lists into Tibbles
+Version: 0.1.0
+Authors@R: 
+    person("Diego", "Guimaraes", email = "diegomsg@gmail.com", role = c("aut", "cre"))
+Description: Tools to extract, organize, and transform data from SharePoint site lists into tidy and rectangular formats. Designed for seamless integration with the tidyverse ecosystem, enabling efficient analysis and reporting.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests: 
+    knitr,
+    rmarkdown,
+VignetteBuilder: knitr
+Imports: 
+    dplyr,
+    purrr,
+    tibble,
+    tidyr
